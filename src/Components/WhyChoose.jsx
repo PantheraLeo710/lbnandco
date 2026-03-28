@@ -16,24 +16,24 @@ const WhyChoose=()=>{
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        WHY <span>Crumbella?</span>
+        WHY <span style={{ fontFamily: "'Playfair Display', serif", fontStyle: "normal" }}>LBN & Co.?</span>
       </motion.h2>
 
       <div className="why-content">
         <div className="why-left">
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
-            <h3>FAST DELIVERED I</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum odio id felis consectetur tempus. </p>
+            <h3>TIMELY DELIVERY I</h3>
+            <p>We take the time to prepare so you take your time to enjoy</p>
           </motion.div>
 
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
             <h3>INGREDIENT SUPPLY I</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum odio id felis consectetur tempus. </p>
+            <p>Both what we expect and offer are nothing short of authentic and quality ingredients</p>
           </motion.div>
 
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
             <h3>EVENT BOOKING I</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum odio id felis consectetur tempus. </p>
+            <p>Yes, we provide booking before hand to cater you our services </p>
           </motion.div>
         </div>
 
@@ -49,17 +49,17 @@ const WhyChoose=()=>{
         <div className="why-right">
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
             <h3>I BEST QUALITY</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum odio id felis consectetur tempus. </p>
+            <p>Its for you to tell! </p>
           </motion.div>
 
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
             <h3>I ONLINE BOOKING</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum odio id felis consectetur tempus. </p>
+            <p>Order with the touch of your fingers from the comfort of your phones or homes </p>
           </motion.div>
 
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
             <h3>I FRESHLY MADE</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum odio id felis consectetur tempus. </p>
+            <p>Yes, Hot pastries and Cold desserts </p>
           </motion.div>
         </div>
       </div>

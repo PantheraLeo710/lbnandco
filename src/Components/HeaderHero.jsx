@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import heroCookie from "../Images/hero-cookie.webp";
+import lbnLogo from "../Images/lbn-logo.png"; 
 
 const HeaderHero = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -11,14 +12,15 @@ const HeaderHero = () => {
       {/* === Fixed Top Section (Logo + Button) === */}
       <div className="top-bg">
       <div className="top-section">
-        <motion.h2
+        <motion.img
+          src={lbnLogo}
+          alt="LBN & Co."
           className="logo"
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-        >
-          Crumbella
-        </motion.h2>
+          style={{ height: "40px", width: "auto", objectFit: "contain" }}
+        />
 
         <motion.button
           className="menu-btn"
@@ -47,8 +49,9 @@ const HeaderHero = () => {
               initial={{ opacity: 0, x: -40 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
+              style={{ fontFamily: "'Dancing Script', cursive", fontWeight: "normal", textTransform: "none" }}
             >
-              COOKIES !!
+              Desserts...
             </motion.h1>
 
             <motion.h2
@@ -57,7 +60,7 @@ const HeaderHero = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.6, duration: 0.8 }}
             >
-              CAN MAKE THE WHOLE WORLD BETTER
+              CAN MAKE YOUR WHOLE WORLD BETTER !!
             </motion.h2>
 
             <motion.p
@@ -66,12 +69,9 @@ const HeaderHero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8, duration: 1 }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              rutrum odio id felis consectetur tempus. Aliquam id metus at nibh
-              tempor consequat. Sed nulla justo, tempor sed sodales sagittis,
-              convallis vitae neque. Duis enim libero, semper sed ultrices ac,
-              varius non velit. Integer convallis pharetra neque et congue leo
-              euismod id.
+              Treat yourself with the best desserts you deserve. This is the 
+              place of premium Desserts & Pastries. Authentic, just like you.
+              Taste the magic we have to offer...
             </motion.p>
           </div>
 
@@ -97,17 +97,21 @@ const HeaderHero = () => {
           transition={{ type: "spring", stiffness: 80 }}
         >
           <div className="sidebar-content">
-            <h2 className="sidebar-logo">Crumbella</h2>
+            <motion.img
+          src={lbnLogo}
+          alt="LBN & Co."
+          className="logo"
+          initial={{ opacity: 0, y: -30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          style={{ height: "40px", width: "auto", objectFit: "contain" }}
+        />
             <ul className="sidebar-links">
-               <li><a href="/#" onClick={toggleSidebar}>Introduction</a></li>
-              <li><a href="/#" onClick={toggleSidebar}>About Us</a></li>
-              <li><a href="/#" onClick={toggleSidebar}>Why Choose Us</a></li>
-              <li><a href="/#" onClick={toggleSidebar}>Meet the Baker</a></li>
-              <li><a href="/#" onClick={toggleSidebar}>Menu</a></li>
-              <li><a href="/#" onClick={toggleSidebar}>Testimonials</a></li>
-              <li><a href="/#" onClick={toggleSidebar}>Upcoming Events</a></li>
-              <li><a href="/#" onClick={toggleSidebar}>Qualities</a></li>
-              <li><a href="/#" onClick={toggleSidebar}>Blogs</a></li>
+              <li><a href="#menu" onClick={toggleSidebar}>Menu</a></li>
+              <li><a href="#intro-section" onClick={toggleSidebar}>Introduction</a></li>
+              <li><a href="#about-us" onClick={toggleSidebar}>About Us</a></li>
+              <li><a href="#choose-us" onClick={toggleSidebar}>Why Choose Us</a></li>
+              <li><a href="#products" onClick={toggleSidebar}>Products</a></li>
             </ul>
             <div className="sidebar-footer">
               <a href="tel:+917317864081" className="footer-item link-item">
