@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lbnandco/static/css/main.fd48fcc4.css",
-    "main.js": "/lbnandco/static/js/main.a455a63a.js",
-    "static/js/453.b473b0f5.chunk.js": "/lbnandco/static/js/453.b473b0f5.chunk.js",
+    "main.js": "/lbnandco/static/js/main.b9ae5f8c.js",
+    "static/js/453.5ee77c18.chunk.js": "/lbnandco/static/js/453.5ee77c18.chunk.js",
     "static/media/why-choose.webp": "/lbnandco/static/media/why-choose.eab01ed4ce98c30f4ff5.webp",
     "static/media/whipcream.webp": "/lbnandco/static/media/whipcream.f85c57072c892a56643d.webp",
     "static/media/hero-cookie.webp": "/lbnandco/static/media/hero-cookie.913fb445d8464b9fd7b2.webp",
@@ -11,11 +11,11 @@
     "static/media/about-us-left.webp": "/lbnandco/static/media/about-us-left.44c4627947e7929901dd.webp",
     "index.html": "/lbnandco/index.html",
     "main.fd48fcc4.css.map": "/lbnandco/static/css/main.fd48fcc4.css.map",
-    "main.a455a63a.js.map": "/lbnandco/static/js/main.a455a63a.js.map",
-    "453.b473b0f5.chunk.js.map": "/lbnandco/static/js/453.b473b0f5.chunk.js.map"
+    "main.b9ae5f8c.js.map": "/lbnandco/static/js/main.b9ae5f8c.js.map",
+    "453.5ee77c18.chunk.js.map": "/lbnandco/static/js/453.5ee77c18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd48fcc4.css",
-    "static/js/main.a455a63a.js"
+    "static/js/main.b9ae5f8c.js"
   ]
 }
