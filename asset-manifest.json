@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lbnandco/static/css/main.fd48fcc4.css",
-    "main.js": "/lbnandco/static/js/main.43c05782.js",
+    "main.js": "/lbnandco/static/js/main.7654771c.js",
     "static/js/453.5ee77c18.chunk.js": "/lbnandco/static/js/453.5ee77c18.chunk.js",
     "static/media/why-choose.webp": "/lbnandco/static/media/why-choose.eab01ed4ce98c30f4ff5.webp",
     "static/media/whipcream.webp": "/lbnandco/static/media/whipcream.f85c57072c892a56643d.webp",
@@ -11,11 +11,11 @@
     "static/media/about-us-left.webp": "/lbnandco/static/media/about-us-left.44c4627947e7929901dd.webp",
     "index.html": "/lbnandco/index.html",
     "main.fd48fcc4.css.map": "/lbnandco/static/css/main.fd48fcc4.css.map",
-    "main.43c05782.js.map": "/lbnandco/static/js/main.43c05782.js.map",
+    "main.7654771c.js.map": "/lbnandco/static/js/main.7654771c.js.map",
     "453.5ee77c18.chunk.js.map": "/lbnandco/static/js/453.5ee77c18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd48fcc4.css",
-    "static/js/main.43c05782.js"
+    "static/js/main.7654771c.js"
   ]
 }
