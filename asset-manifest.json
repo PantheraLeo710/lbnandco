@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/lbnandco/static/css/main.8332c122.css",
-    "main.js": "/lbnandco/static/js/main.a93b13c2.js",
+    "main.js": "/lbnandco/static/js/main.83215fcc.js",
     "static/js/453.5ee77c18.chunk.js": "/lbnandco/static/js/453.5ee77c18.chunk.js",
     "static/media/why-choose.webp": "/lbnandco/static/media/why-choose.eab01ed4ce98c30f4ff5.webp",
     "static/media/whipcream.webp": "/lbnandco/static/media/whipcream.f85c57072c892a56643d.webp",
     "static/media/hero-cookie.webp": "/lbnandco/static/media/hero-cookie.913fb445d8464b9fd7b2.webp",
+    "static/media/mango-thing-small.jpg": "/lbnandco/static/media/mango-thing-small.3a154eef96887fedbaf5.jpg",
     "static/media/about-us-right.webp": "/lbnandco/static/media/about-us-right.8af564f7df21e540863a.webp",
     "static/media/about-us-left.webp": "/lbnandco/static/media/about-us-left.44c4627947e7929901dd.webp",
-    "static/media/mango-cake.webp": "/lbnandco/static/media/mango-cake.f3f18dd684d71eea5368.webp",
-    "static/media/dessert-in-glass.webp": "/lbnandco/static/media/dessert-in-glass.57ee1235bd4dd68af0b7.webp",
-    "static/media/cake.webp": "/lbnandco/static/media/cake.ef889d3508d0eecb9b7b.webp",
+    "static/media/tender-care-small.jpg": "/lbnandco/static/media/tender-care-small.46525723bf8995b1e7df.jpg",
+    "static/media/strawberry-bliss-small.jpg": "/lbnandco/static/media/strawberry-bliss-small.ba9f909c7d4f26baae9b.jpg",
     "index.html": "/lbnandco/index.html",
     "main.8332c122.css.map": "/lbnandco/static/css/main.8332c122.css.map",
-    "main.a93b13c2.js.map": "/lbnandco/static/js/main.a93b13c2.js.map",
+    "main.83215fcc.js.map": "/lbnandco/static/js/main.83215fcc.js.map",
     "453.5ee77c18.chunk.js.map": "/lbnandco/static/js/453.5ee77c18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8332c122.css",
-    "static/js/main.a93b13c2.js"
+    "static/js/main.83215fcc.js"
   ]
 }
