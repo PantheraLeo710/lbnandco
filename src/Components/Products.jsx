@@ -1,19 +1,23 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// IMPORTANT: I am using the images that came with the template as placeholders!
-// Change these names to match your actual dessert photos once you drop them into the Images folder.
+// === IMAGE IMPORTS ===
 import product1 from "../Images/whipcream.webp"; 
 import product2 from "../Images/about-us-left.webp"; 
 import product3 from "../Images/about-us-right.webp"; 
+import product4 from "../Images/tender-care-small.jpg"; 
+import product5 from "../Images/strawberry-bliss-small.jpg"; 
+import product6 from "../Images/mango-thing-small.jpg"; 
 
 const Products = () => {
   // === YOUR FEATURED CATEGORIES ===
-  // Edit the text here to match what you want to show off.
   const productList = [
-    { id: 1, name: "Signature Cakes", subtitle: "Custom designs for your special moments.", img: product1 },
-    { id: 2, name: "Evening Pastries", subtitle: "Perfect pairings for your daily coffee.", img: product2 },
-    { id: 3, name: "Handcrafted Cookies", subtitle: "Warm, gooey, and baked fresh daily.", img: product3 },
+    { id: 1, name: "Whipped Cream", subtitle: "Custom designs for your special moments.", img: product1 },
+    { id: 2, name: "Tender Loving Care", subtitle: "Perfect pairings for your daily coffee.", img: product2 },
+    { id: 3, name: "Nature's Candy", subtitle: "Might get you inspired.", img: product3 },
+    { id: 4, name: "Signature Coconut Bliss", subtitle: "Light, airy, and kissed with tropical sweetness.", img: product4 },
+    { id: 5, name: "Kunafa Berry Parfait", subtitle: "Crunchy pistachio, fresh strawberries, and rich chocolate.", img: product5 },
+    { id: 6, name: "That Mango Thing", subtitle: "Creamy perfection packed with fresh, sweet mango bursts.", img: product6 },
   ];
 
   // === ANIMATION SETTINGS ===
@@ -82,7 +86,7 @@ const Products = () => {
                 <h3 style={{ fontFamily: "'Poppins', sans-serif", fontSize: "22px", margin: "0 0 10px 0", color: "#1B263B" }}>
                   {product.name}
                 </h3>
-                <p style={{ fontFamily: "'Paprika', cursive", fontSize: "14px", color: "#666", margin: 0 }}>
+                <p style={{ fontFamily: "'Playfair Display', serif", fontSize: "14px", color: "#666", margin: 0 }}>
                   {product.subtitle}
                 </p>
               </div>

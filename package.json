@@ -1,7 +1,6 @@
 {
-  "name": "crumbella",
+  "name": "lbnandco",
   "version": "0.1.0",
-  "homepage": "https://PantheraLeo710.github.io/lbnandco",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",

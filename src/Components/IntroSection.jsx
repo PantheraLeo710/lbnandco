@@ -21,7 +21,7 @@ const IntroSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
           viewport={{ once: true }}
-          style={{ fontFamily: "'Paprika', cursive", fontSize: "16px", color: "#444", lineHeight: "1.8" }}
+          style={{ fontFamily: "'Playfair Display', serif", fontSize: "16px", color: "#444", lineHeight: "1.8" }}
         >
           <p style={{ marginBottom: "20px" }}>
             Born in the vibrant streets of Calicut in 2025, LBN & Co. began with a singular vision: to honor the rich, time-tested traditions of dessert-making. We draw our inspiration from the intricate layers of history, bringing authentic, honey-soaked Egyptian sweets and classic heritage recipes to your table. 

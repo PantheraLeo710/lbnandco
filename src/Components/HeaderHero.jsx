@@ -7,30 +7,62 @@ const HeaderHero = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
 
+  const scrollToSection = (e, sectionId) => {
+    e.preventDefault(); // This stops the web address from changing!
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+    setSidebarOpen(false); // Closes the sidebar after clicking
+  };
+
   return (
     <>
       {/* === Fixed Top Section (Logo + Button) === */}
       <div className="top-bg">
-      <div className="top-section">
-        <motion.img
-          src={lbnLogo}
-          alt="LBN & Co."
-          className="logo"
-          initial={{ opacity: 0, y: -30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          style={{ height: "40px", width: "auto", objectFit: "contain" }}
-        />
+        <div className="top-section">
+          
+          {/* Restored Transparent Logo */}
+          {/* Restored Transparent Logo (Now with Framer Motion Scale) */}
+          <motion.img
+            src={lbnLogo}
+            alt="LBN & Co."
+            className="logo"
+            initial={{ opacity: 0, y: -30, scale: 1.5 }} /* Added scale here */
+            animate={{ opacity: 1, y: 0, scale: 1.5 }}   /* Added scale here */
+            transition={{ duration: 0.8 }}
+            style={{ 
+              height: "45px", 
+              width: "auto", 
+              objectFit: "contain",
+              transformOrigin: "left center" /* Still ensures it zooms outward to the right */
+            }}
+          />
 
-        <motion.button
-          className="menu-btn"
-          onClick={toggleSidebar}
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          {sidebarOpen ? "✕" : "☰"}
-        </motion.button>
-      </div></div>
+          {/* Upgraded Professional SVG Button */}
+          <motion.button
+            className="menu-btn"
+            onClick={toggleSidebar}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            style={{ display: "flex", alignItems: "center", justifyContent: "center", color: "#A67C52" }}
+          >
+            {sidebarOpen ? (
+              <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            ) : (
+              <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            )}
+          </motion.button>
+
+        </div>
+      </div>
 
       {/* === Hero Section === */}
       <div className="white-wrapper">
@@ -49,9 +81,15 @@ const HeaderHero = () => {
               initial={{ opacity: 0, x: -40 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
-              style={{ fontFamily: "'Dancing Script', cursive", fontWeight: "normal", textTransform: "none" }}
+              style={{ 
+                fontFamily: "'Playfair Display', serif", 
+                fontWeight: "800", /* Makes it thick and sharp like the logo */
+                textTransform: "uppercase", /* Capitalizing it makes it look incredibly high-end */
+                letterSpacing: "2px", 
+                color: "#1B263B" 
+              }}
             >
-              Desserts...
+              DESSERTS...
             </motion.h1>
 
             <motion.h2
@@ -107,18 +145,31 @@ const HeaderHero = () => {
           style={{ height: "40px", width: "auto", objectFit: "contain" }}
         />
             <ul className="sidebar-links">
-              <li><a href="#menu" onClick={toggleSidebar}>Menu</a></li>
-              <li><a href="#intro-section" onClick={toggleSidebar}>Introduction</a></li>
-              <li><a href="#about-us" onClick={toggleSidebar}>About Us</a></li>
-              <li><a href="#choose-us" onClick={toggleSidebar}>Why Choose Us</a></li>
-              <li><a href="#products" onClick={toggleSidebar}>Products</a></li>
+              <li>
+                <a href="#!" onClick={(e) => scrollToSection(e, 'intro-section')}>Introduction</a>
+              </li>
+              <li>
+                <a href="#!" onClick={(e) => scrollToSection(e, 'about-us')}>About Us</a>
+              </li>
+              <li>
+                <a href="#!" onClick={(e) => scrollToSection(e, 'choose-us')}>Why Choose Us</a>
+              </li>
+              <li>
+                <a href="#!" onClick={(e) => scrollToSection(e, 'products')}>Products</a>
+              </li>
+              <li>
+                <a href="#!" onClick={(e) => scrollToSection(e, 'menu')}>Menu</a>
+              </li>
+              <li>
+                <a href="#!" onClick={(e) => scrollToSection(e, 'contact')}>Contact</a>
+              </li>
             </ul>
             <div className="sidebar-footer">
-              <a href="tel:+917317864081" className="footer-item link-item">
-                +91 7317864081
+              <a href="tel:+917736660688" className="footer-item link-item">
+                +91 7736660688
               </a>
               <a href="mailto:yourmail@email.com" className="footer-item link-item">
-                yourmail@email.com
+                lbnco2025@gmail.com
               </a>
             </div>
           </div>

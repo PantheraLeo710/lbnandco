@@ -19,20 +19,55 @@ const Contact = () => {
             <h2 style={{ fontFamily: "'Poppins', sans-serif", fontSize: "32px", color: "#1B263B", marginBottom: "20px" }}>
               Get in <span style={{ fontFamily: "'Dancing Script', cursive", color: "#A67C52", textTransform: "none" }}>Touch</span>
             </h2>
-            <p style={{ fontFamily: "'Paprika', cursive", fontSize: "15px", color: "#555", marginBottom: "30px", lineHeight: "1.6" }}>
+            <p style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", color: "#555", marginBottom: "30px", lineHeight: "1.6" }}>
               Whether you want to place a custom order, ask about our traditional Egyptian specialties, or just say hello, we are here for you.
             </p>
             
             <div style={{ marginBottom: "30px" }}>
-              <h4 style={{ fontFamily: "'Poppins', sans-serif", color: "#A67C52", margin: "0 0 5px 0" }}>Partner With Us</h4>
-              <p style={{ fontFamily: "'Paprika', cursive", fontSize: "14px", color: "#444", margin: 0 }}>
-                Want to bring LBN & Co. to your city? For franchise inquiries, reach out to us directly.
+              <h4 style={{ fontFamily: "'Poppins', sans-serif", color: "#A67C52", margin: "0 0 8px 0" }}>Partner With Us</h4>
+              <p style={{ fontFamily: "'Playfair Display', serif", fontSize: "14px", color: "#444", marginBottom: "15px" }}>
+                Want to bring LBN & Co. to your city? Fill out our franchise application form to get started.
               </p>
+              
+              {/* React Router Button to the new page */}
+              <a 
+                href="#/franchise" 
+                style={{ 
+                  display: "inline-block", backgroundColor: "#A67C52", color: "#FFF", 
+                  padding: "10px 24px", borderRadius: "6px", textDecoration: "none", 
+                  fontFamily: "'Poppins', sans-serif", fontSize: "14px", transition: "background 0.3s" 
+                }} 
+                onMouseEnter={(e) => e.target.style.backgroundColor = "#1B263B"} 
+                onMouseLeave={(e) => e.target.style.backgroundColor = "#A67C52"}
+              >
+                Franchise Application →
+              </a>
             </div>
 
+            {/* Clickable Phone & Email */}
             <div style={{ fontFamily: "'Poppins', sans-serif", fontSize: "15px", color: "#1B263B" }}>
-              <p><strong>Phone:</strong> +91 7317864081</p>
-              <p><strong>Email:</strong> franchise@lbnandco.com</p>
+              <p style={{ margin: "0 0 10px 0" }}>
+                <strong>Phone:</strong>{' '}
+                <a 
+                  href="tel:+917317864081" 
+                  style={{ color: "#1B263B", textDecoration: "none", transition: "color 0.2s" }}
+                  onMouseEnter={(e) => e.target.style.color = "#A67C52"}
+                  onMouseLeave={(e) => e.target.style.color = "#1B263B"}
+                >
+                  +91 7317864081
+                </a>
+              </p>
+              <p style={{ margin: 0 }}>
+                <strong>Email:</strong>{' '}
+                <a 
+                  href="mailto:lbnco2025@gmail.com?subject=Franchise Inquiry From Website- LBN & Co.&body=Hi LBN & Co. Team,%0D%0A%0D%0AI would like to..." 
+                  style={{ color: "#1B263B", textDecoration: "none", transition: "color 0.2s" }}
+                  onMouseEnter={(e) => e.target.style.color = "#A67C52"}
+                  onMouseLeave={(e) => e.target.style.color = "#1B263B"}
+                >
+                  lbnco2025@gmail.com
+                </a>
+              </p>
             </div>
           </motion.div>
 
@@ -47,7 +82,7 @@ const Contact = () => {
             <h3 style={{ fontFamily: "'Poppins', sans-serif", fontSize: "24px", color: "#1B263B", marginBottom: "15px" }}>
               Our Locations
             </h3>
-            <p style={{ fontFamily: "'Paprika', cursive", fontSize: "14px", color: "#555", marginBottom: "15px" }}>
+            <p style={{ fontFamily: "'Playfair Display', serif", fontSize: "14px", color: "#555", marginBottom: "15px" }}>
               <strong>Mumbai:</strong> Mira Road East, Mumbai, Maharashtra <br/>
               <strong>Kerala:</strong> Calicut (Flagship Store)
             </p>
