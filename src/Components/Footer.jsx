@@ -62,8 +62,8 @@ const Footer = () => {
           <div style={{ fontFamily: "'Poppins', sans-serif", fontSize: "12px", fontWeight: "300", lineHeight: "1.6", color: "#D0D6DF" }}>
             <p style={{ margin: "0 0 4px 0" }}><strong style={{ fontWeight: "500", color: "#FFF" }}>Mumbai:</strong> Mira Road East</p>
             <p style={{ margin: "0 0 10px 0" }}><strong style={{ fontWeight: "500", color: "#FFF" }}>Kerala:</strong> Calicut Flagship</p>
-            <p style={{ margin: "0 0 2px 0", color: "#A67C52", fontWeight: "500" }}>Evening Shifts:</p>
-            <p style={{ margin: 0 }}>3:00 PM - 1:00 AM</p>
+            <p style={{ margin: "0 0 2px 0", color: "#A67C52", fontWeight: "500" }}>Open Hours:</p>
+            <p style={{ margin: 0 }}>1:00 PM - 1:00 AM</p>
           </div>
         </div>
 

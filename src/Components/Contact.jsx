@@ -91,7 +91,7 @@ const Contact = () => {
             <div style={{ width: "100%", height: "250px", backgroundColor: "#eaeaea", borderRadius: "10px", overflow: "hidden" }}>
               <iframe 
                 title="LBN & Co Mira Road Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.1!2d72.85!3d19.28!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDE2JzQ4LjAiTiA3MsKwNTEnMDAuMCJF!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.3212354560246!2d72.87584059776606!3d19.26839172025553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1b6352fd321%3A0xe155089c87800de0!2sLBN%20%26%20Co.!5e0!3m2!1sen!2sin!4v1775994217649!5m2!1sen!2sin" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 

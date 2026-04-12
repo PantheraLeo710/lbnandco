@@ -2,22 +2,16 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // === IMAGE IMPORTS ===
-import product1 from "../Images/whipcream.webp"; 
 import product2 from "../Images/about-us-left.webp"; 
-import product3 from "../Images/about-us-right.webp"; 
 import product4 from "../Images/tender-care-small.jpg"; 
-import product5 from "../Images/strawberry-bliss-small.jpg"; 
 import product6 from "../Images/mango-thing-small.jpg"; 
 
 const Products = () => {
   // === YOUR FEATURED CATEGORIES ===
   const productList = [
-    { id: 1, name: "Whipped Cream", subtitle: "Custom designs for your special moments.", img: product1 },
-    { id: 2, name: "Tender Loving Care", subtitle: "Perfect pairings for your daily coffee.", img: product2 },
-    { id: 3, name: "Nature's Candy", subtitle: "Might get you inspired.", img: product3 },
-    { id: 4, name: "Signature Coconut Bliss", subtitle: "Light, airy, and kissed with tropical sweetness.", img: product4 },
-    { id: 5, name: "Kunafa Berry Parfait", subtitle: "Crunchy pistachio, fresh strawberries, and rich chocolate.", img: product5 },
-    { id: 6, name: "That Mango Thing", subtitle: "Creamy perfection packed with fresh, sweet mango bursts.", img: product6 },
+    { id: 1, name: "That Mango Thing", subtitle: "An intense chocolate indulgence layered to perfection... Rich, warm and irresistibly satisfying", img: product6 },
+    { id: 2, name: "Rafaello Royale", subtitle: "A rich soft layers with perfect balance of textures... Creamy, crunchy and deeply satisfying.", img: product4 },
+    { id: 3, name: "Tender Loving Care", subtitle: "A soft delicate indulgengence with a smooth tropical touch... Light, creamy and beautifully comforting", img: product2 },
   ];
 
   // === ANIMATION SETTINGS ===
@@ -44,7 +38,7 @@ const Products = () => {
             marginBottom: "3rem" 
           }}
         >
-          FEATURED <span style={{ fontFamily: "'Dancing Script', cursive", color: "#A67C52", fontWeight: "normal", textTransform: "none" }}>Bakes</span>
+          LUXE <span style={{ fontFamily: "'Dancing Script', cursive", color: "#A67C52", fontWeight: "normal", textTransform: "none" }}>Edition</span>
         </motion.h2>
 
         {/* Products Grid Layout */}

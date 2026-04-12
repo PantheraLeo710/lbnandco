@@ -21,25 +21,29 @@ const WhyChoose=()=>{
 
       <div className="why-content">
         <div className="why-left">
+          
+          {/* Replaced Timely Delivery */}
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
-            <h3>TIMELY DELIVERY I</h3>
-            <p>We take the time to prepare so you take your time to enjoy</p>
+            <h3>HERITAGE RECIPES I</h3>
+            <p>Honoring time-tested traditions with authentic Egyptian sweets and classic pastry techniques.</p>
           </motion.div>
 
+          {/* Polished Ingredient Supply */}
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
-            <h3>INGREDIENT SUPPLY I</h3>
-            <p>Both what we expect and offer are nothing short of authentic and quality ingredients</p>
+            <h3>AUTHENTIC INGREDIENTS I</h3>
+            <p>We source only the finest, purest ingredients to ensure every bite is nothing short of perfection.</p>
           </motion.div>
 
+          {/* Replaced Event Booking */}
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
-            <h3>EVENT BOOKING I</h3>
-            <p>Yes, we provide booking before hand to cater you our services </p>
+            <h3>ARTISANAL CRAFT I</h3>
+            <p>Meticulously handcrafted desserts made with passion, precision, and an eye for detail.</p>
           </motion.div>
         </div>
 
         <motion.img
           src={ChooseUsImg}
-          alt="Why Crumbella"
+          alt="Why lbnandco"
           className="why-img"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -47,19 +51,23 @@ const WhyChoose=()=>{
         />
 
         <div className="why-right">
+          
+          {/* Polished Best Quality */}
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
-            <h3>I BEST QUALITY</h3>
-            <p>Its for you to tell! </p>
+            <h3>I UNCOMPROMISING QUALITY</h3>
+            <p>It is for you to tell! We let the richness and taste of our desserts speak for themselves.</p>
           </motion.div>
 
+          {/* Replaced Online Booking */}
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
-            <h3>I ONLINE BOOKING</h3>
-            <p>Order with the touch of your fingers from the comfort of your phones or homes </p>
+            <h3>I EXCLUSIVE FLAVORS</h3>
+            <p>Experience unique blends, from authentic Middle Eastern Kunafa to rich European chocolates.</p>
           </motion.div>
 
+          {/* Kept Freshly Made */}
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible">
             <h3>I FRESHLY MADE</h3>
-            <p>Yes, Hot pastries and Cold desserts </p>
+            <p>Yes, hot pastries and cold desserts, prepared fresh daily to guarantee the perfect texture.</p>
           </motion.div>
         </div>
       </div>

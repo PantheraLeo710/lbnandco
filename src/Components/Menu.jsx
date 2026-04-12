@@ -5,19 +5,17 @@ const Menu = () => {
   // === YOUR MENU ITEMS ===
   // Just edit the text inside the quotes to update your menu!
   const menuItems = [
-    { name: "LBN Skewer", desc: "Fluffy pancakes, sweet strawberries, ripe bananas, and decadent chocolates." },
-    { name: "Strawberry Bliss", desc: "Strawberry Kunafa Chocolate dessert blending East meets West." },
     { name: "LBN DBC", desc: "Velvety chocolate and smooth ice cream come together in a chocolate lover's dream." },
-    { name: "LBN Cheese Blast", desc: "Creamy cheese, crunchy pistachio kunafa, and rich chocolate sauce." },
     { name: "Loaded Waffle", desc: "Crunchy waffles, creamy ice cream, sweet bananas and rich chocolate sauce." },
-    { name: "Le Salankatia", desc: "A rich and creamy dessert infused with Middle East flavors." },
+    { name: "LBN Skewer", desc: "Fluffy pancakes, sweet strawberries, ripe bananas, and decadent chocolates." },
+    { name: "Cheese Blast", desc: "Creamy cheese, crunchy pistachio kunafa, and rich chocolate sauce." },
+    { name: "Dream Boat", desc: "Pancakes topped with fresh strawberries, marshmallows, and chocolate shavings." },
+    { name: "Strawberry Bliss", desc: "Strawberry Kunafa Chocolate dessert blending East meets West." },
     { name: "LBN Koshary", desc: "A comforting traditional sweet treat featuring sticky rice cooked in milk." },
-    { name: "That Mango Thing", desc: "Sweet mangoes with the creaminess of cheese and the richness of white chocolate." },
-    { name: "LBN Dream Boat", desc: "Pancakes topped with fresh strawberries, marshmallows, and chocolate shavings." },
+    { name: "LBN Kabsa", desc: "Layered to perfection with a balance of crunch and richness." },
     { name: "Biscoff Sensation", desc: "A creamy baked cheesecake with an airy, mousse-like texture." },
-    { name: "Tender Loving Care TLC", desc: "Tender coconut paired with creamy white chocolate and a hint of tangy cream cheese." },
-    { name: "Sita Luxe", desc: "Experience the tropical twist of our Sitaphal White Chocolate Cream Cheese dessert." },
-    { name: "Rafaello Royale", desc: "Crunchy coconut, creamy cheese, and sweet white chocolate." }
+    { name: "Le Salankatia", desc: "A rich and creamy dessert infused with Middle East flavors." },    
+    { name: "Sita Luxe", desc: "A smooth creamy indulgence with a delicate sweetness." },    
   ];
 
   // === ANIMATION SETTINGS ===
