@@ -76,41 +76,80 @@ const HeaderHero = () => {
           id='intro-section'
         >
           <div className="left-section">
+            
+            {/* 1. Warm Cursive Accent */}
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3, duration: 0.8 }}
+              style={{
+                fontFamily: "'Dancing Script', cursive",
+                fontSize: "32px",
+                color: "#A67C52", // Brand Caramel Brown
+                margin: "0 0 -15px 0", // This pulls the main title closer to it
+                fontWeight: "600"
+              }}
+            >
+              Indulge in
+            </motion.p>
+
+            {/* 2. Clean, Premium Main Title */}
             <motion.h1
               className="main-title"
               initial={{ opacity: 0, x: -40 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
               style={{ 
-                fontFamily: "'Playfair Display', serif", 
-                fontWeight: "800", /* Makes it thick and sharp like the logo */
-                textTransform: "uppercase", /* Capitalizing it makes it look incredibly high-end */
-                letterSpacing: "2px", 
-                color: "#1B263B" 
+                fontFamily: "'Libre Baskerville', serif", 
+                fontWeight: "300", 
+                fontStyle: "normal", 
+                textTransform: "none", 
+                letterSpacing: "-0.5px", 
+                color: "#1B263B",
+                lineHeight: "1.0",
+                fontSize: "65px"
               }}
             >
-              DESSERTS...
+              Sweet Perfection.
             </motion.h1>
 
+            {/* 3. Refined, Spaced-Out Subtitle */}
             <motion.h2
               className="subtitle"
               initial={{ opacity: 0, x: -40 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.6, duration: 0.8 }}
+              style={{
+                fontFamily: "'Poppins', sans-serif",
+                fontWeight: "400", /* Softened the weight so it isn't shouting */
+                fontSize: "16px", /* Shrunk it to look more like a premium tagline */
+                letterSpacing: "4px", /* Wide letter spacing looks very high-end */
+                textTransform: "uppercase",
+                color: "#666",
+                marginTop: "15px",
+                marginBottom: "25px"
+              }}
             >
-              CAN MAKE YOUR WHOLE WORLD BETTER !!
+              CRAFTED FOR THE CONNOISSEUR
             </motion.h2>
 
+            {/* 4. Description Paragraph */}
             <motion.p
               className="description"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8, duration: 1 }}
+              style={{
+                fontFamily: "'Montserrat', sans-serif",
+                fontSize: "15px",
+                color: "#555",
+                lineHeight: "1.6",
+                maxWidth: "90%"
+              }}
             >
-              Treat yourself with the best desserts you deserve. This is the 
-              place of premium Desserts & Pastries. Authentic, just like you.
-              Taste the magic we have to offer...
+              Step into a world of premium pastries and authentic Middle Eastern sweetness. Treat yourself with the best desserts you deserve.We craft exquisite moments that linger long after the last bite.
             </motion.p>
+            
           </div>
 
           <motion.div

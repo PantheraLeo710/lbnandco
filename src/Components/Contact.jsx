@@ -49,12 +49,12 @@ const Contact = () => {
               <p style={{ margin: "0 0 10px 0" }}>
                 <strong>Phone:</strong>{' '}
                 <a 
-                  href="tel:+917317864081" 
+                  href="tel:+917736660688" 
                   style={{ color: "#1B263B", textDecoration: "none", transition: "color 0.2s" }}
                   onMouseEnter={(e) => e.target.style.color = "#A67C52"}
                   onMouseLeave={(e) => e.target.style.color = "#1B263B"}
                 >
-                  +91 7317864081
+                  +91 77366 60688
                 </a>
               </p>
               <p style={{ margin: 0 }}>
