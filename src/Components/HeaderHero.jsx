@@ -110,7 +110,7 @@ const HeaderHero = () => {
                 fontSize: "65px"
               }}
             >
-              Sweet Perfection.
+              Sweet Perfection
             </motion.h1>
 
             {/* 3. Refined, Spaced-Out Subtitle */}
