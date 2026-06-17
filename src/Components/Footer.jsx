@@ -71,7 +71,7 @@ const Footer = () => {
 
       {/* Copyright Bottom Bar */}
       <div style={{ borderTop: "1px solid rgba(255,255,255,0.05)", marginTop: "1rem", paddingTop: "0.8rem", textAlign: "center", fontFamily: "'Poppins', sans-serif", fontSize: "10px", fontWeight: "300", color: "#666" }}>
-        © 2026 LBN & Co. All rights reserved.
+        © 2026 Jigar Rane All rights reserved.
       </div>
     </footer>
   );
