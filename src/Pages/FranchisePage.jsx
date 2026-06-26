@@ -108,12 +108,11 @@ Looking forward to discussing this opportunity!`;
           <input type="text" name="city" placeholder="City" required onChange={handleChange} style={inputStyle} />
           
           <select name="state" required onChange={handleChange} style={{ ...inputStyle, cursor: "pointer" }}>
-            <option value="" disabled selected>Select State</option>
+            <option value="" disabled selected>Select State / Region</option>
             <option value="Maharashtra">Maharashtra</option>
             <option value="Kerala">Kerala</option>
-            <option value="Karnataka">Karnataka</option>
-            <option value="Tamil Nadu">Tamil Nadu</option>
-            <option value="Delhi">Delhi</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Oman">Oman</option>
             <option value="Other">Other</option>
           </select>
 

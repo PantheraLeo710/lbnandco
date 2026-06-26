@@ -9,7 +9,7 @@ const WhyChoose=()=>{
   };
   return(
       <div className="white-wrapper">
-    <section className="why-section" id='choose-us'>
+    <section className="why-section" id='choose-us' style={{ padding: "2rem 0" }}>
       <motion.h2
         className="why-title"
         initial={{ opacity: 0, y: -20 }}

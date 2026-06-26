@@ -57,11 +57,12 @@ const Footer = () => {
         </div>
 
         {/* Column 3: Hours & Locations */}
+        {/* Column 3: Hours & Locations */}
         <div style={{ flex: "1", minWidth: "200px" }}>
           <h4 style={{ fontFamily: "'Poppins', sans-serif", fontSize: "14px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", color: "#A67C52", margin: "0 0 12px 0" }}>Visit Us</h4>
           <div style={{ fontFamily: "'Poppins', sans-serif", fontSize: "12px", fontWeight: "300", lineHeight: "1.6", color: "#D0D6DF" }}>
-            <p style={{ margin: "0 0 4px 0" }}><strong style={{ fontWeight: "500", color: "#FFF" }}>Mumbai:</strong> Mira Road East</p>
-            <p style={{ margin: "0 0 10px 0" }}><strong style={{ fontWeight: "500", color: "#FFF" }}>Kerala:</strong> Calicut Flagship</p>
+            <p style={{ margin: "0 0 4px 0" }}><strong style={{ fontWeight: "500", color: "#FFF" }}>India:</strong> Kerala | Maharashtra</p>
+            <p style={{ margin: "0 0 10px 0" }}><strong style={{ fontWeight: "500", color: "#FFF" }}>Global:</strong> UK | Oman</p>
             <p style={{ margin: "0 0 2px 0", color: "#A67C52", fontWeight: "500" }}>Open Hours:</p>
             <p style={{ margin: 0 }}>1:00 PM - 1:00 AM</p>
           </div>

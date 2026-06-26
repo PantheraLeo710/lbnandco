@@ -22,7 +22,7 @@ const Products = () => {
 
   return (
     <div className="white-wrapper" id="products">
-      <section style={{ maxWidth: "1200px", margin: "auto", padding: "5rem 2rem", textAlign: "center" }}>
+      <section style={{ maxWidth: "1200px", margin: "auto", padding: "2rem", textAlign: "center" }}>
         
         {/* Title Section */}
         <motion.h2

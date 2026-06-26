@@ -26,7 +26,7 @@ const Menu = () => {
 
   return (
     <div className="white-wrapper" id="menu">
-      <section className="menu-section" style={{ maxWidth: "1200px", margin: "auto", padding: "5rem 2rem" }}>
+      <section className="menu-section" style={{ maxWidth: "1200px", margin: "auto", padding: "2rem" }}>
         
         {/* Title Section */}
         <motion.h2

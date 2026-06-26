@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const IntroSection = () => {
   return (
     <div className="white-wrapper" id="intro-section">
-      <section style={{ maxWidth: "1000px", margin: "auto", padding: "5rem 2rem", textAlign: "center" }}>
+      <section style={{ maxWidth: "1000px", margin: "auto", padding: "2rem", textAlign: "center" }}>
         
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
@@ -32,6 +32,38 @@ const IntroSection = () => {
           <p>
             <strong>This week, we are thrilled to begin a new chapter.</strong> We are officially opening the doors to our second home in Mira Road, Mumbai, ready to share our passion for authentic, traditional sweetness with a brand new neighborhood.
           </p>
+        </motion.div>
+
+        {/* --- THE NEW DESIGNER LOCATION BANNER --- */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          viewport={{ once: true }}
+          style={{
+            marginTop: "4rem",
+            paddingTop: "2rem",
+            borderTop: "1px solid #eaeaea",
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "20px",
+            fontFamily: "'Poppins', sans-serif",
+            fontSize: "14px",
+            fontWeight: "500",
+            letterSpacing: "4px", // Wide spacing for luxury feel
+            textTransform: "uppercase",
+            color: "#1B263B"
+          }}
+        >
+          <span>Kerala</span>
+          <span style={{ color: "#A67C52" }}>•</span>
+          <span>Maharashtra</span>
+          <span style={{ color: "#A67C52" }}>•</span>
+          <span>United Kingdom</span>
+          <span style={{ color: "#A67C52" }}>•</span>
+          <span>Oman</span>
         </motion.div>
 
       </section>
